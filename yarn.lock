@@ -771,8 +771,8 @@ __metadata:
     "@turbo/gen": "npm:2.0.6"
     "@types/eslint": "npm:8.56.10"
     "@types/node": "npm:20.14.9"
-    "@types/react": "npm:^18.2.61"
-    "@types/react-dom": "npm:^18.2.19"
+    "@types/react": "npm:18.3.3"
+    "@types/react-dom": "npm:18.3.0"
     eslint: "npm:8.57.0"
     react: "npm:18.3.1"
     typescript: "npm:5.5.2"
@@ -954,7 +954,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18, @types/react-dom@npm:^18.2.19":
+"@types/react-dom@npm:18.3.0":
   version: 18.3.0
   resolution: "@types/react-dom@npm:18.3.0"
   dependencies:
@@ -963,7 +963,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18, @types/react@npm:^18.2.61":
+"@types/react@npm:*, @types/react@npm:18.3.3":
   version: 18.3.3
   resolution: "@types/react@npm:18.3.3"
   dependencies:
@@ -6429,8 +6429,8 @@ __metadata:
     "@repo/typescript-config": "workspace:*"
     "@repo/ui": "npm:*"
     "@types/node": "npm:20.14.9"
-    "@types/react": "npm:^18"
-    "@types/react-dom": "npm:^18"
+    "@types/react": "npm:18.3.3"
+    "@types/react-dom": "npm:18.3.0"
     eslint: "npm:8.57.0"
     eslint-config-next: "npm:15.0.0-rc.0"
     next: "npm:15.0.0-rc.0"
