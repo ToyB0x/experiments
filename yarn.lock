@@ -1469,7 +1469,10 @@ __metadata:
   resolution: "@repo/database@workspace:packages/database"
   dependencies:
     "@prisma/client": "npm:5.16.1"
+    "@repo/eslint-config": "npm:*"
+    "@repo/typescript-config": "npm:*"
     "@types/node": "npm:20.14.9"
+    eslint: "npm:8.57.0"
     prisma: "npm:5.16.1"
     tsup: "npm:8.1.0"
     typescript: "npm:5.5.2"
