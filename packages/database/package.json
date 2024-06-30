@@ -2,9 +2,6 @@
   "name": "@repo/database",
   "version": "0.0.0",
   "private": true,
-  "volta": {
-    "extends": "../../package.json"
-  },
   "scripts": {
     "dev": "prisma generate --watch & tsup --watch",
     "build": "prisma generate && tsup",
@@ -24,5 +21,8 @@
     "prisma": "5.16.1",
     "tsup": "8.1.0",
     "typescript": "5.5.2"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }
