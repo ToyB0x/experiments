@@ -7,6 +7,7 @@
 /** @type {import('eslint').Linter.Config} */
 module.exports = {
   root: true,
+  extends: ['@repo/eslint-config/base.js'],
   parserOptions: {
     ecmaVersion: "latest",
     sourceType: "module",
@@ -20,10 +21,6 @@ module.exports = {
     es6: true,
   },
   ignorePatterns: ["!**/.server", "!**/.client"],
-
-  // Base config
-  extends: ["eslint:recommended"],
-
   overrides: [
     // React
     {
