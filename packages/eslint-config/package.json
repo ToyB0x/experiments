@@ -15,5 +15,8 @@
     "eslint-config-turbo": "2.0.6",
     "eslint-plugin-only-warn": "1.1.0",
     "typescript": "5.5.2"
+  },
+  "volta": {
+    "extends": "../../package.json"
   }
 }
