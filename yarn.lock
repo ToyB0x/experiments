@@ -768,7 +768,7 @@ __metadata:
   dependencies:
     "@repo/eslint-config": "npm:*"
     "@repo/typescript-config": "npm:*"
-    "@turbo/gen": "npm:^1.12.4"
+    "@turbo/gen": "npm:^2.0.0"
     "@types/eslint": "npm:^8.56.5"
     "@types/node": "npm:^20.11.24"
     "@types/react": "npm:^18.2.61"
@@ -830,11 +830,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@turbo/gen@npm:^1.12.4":
-  version: 1.13.4
-  resolution: "@turbo/gen@npm:1.13.4"
+"@turbo/gen@npm:^2.0.0":
+  version: 2.0.6
+  resolution: "@turbo/gen@npm:2.0.6"
   dependencies:
-    "@turbo/workspaces": "npm:1.13.4"
+    "@turbo/workspaces": "npm:2.0.6"
     chalk: "npm:2.4.2"
     commander: "npm:^10.0.0"
     fs-extra: "npm:^10.1.0"
@@ -847,13 +847,13 @@ __metadata:
     validate-npm-package-name: "npm:^5.0.0"
   bin:
     gen: dist/cli.js
-  checksum: 10c0/6bc64be5454a0a82188ee50c06732f7e84dbd169a189f1b268a67186a1ae40d465ef7ca19e87d6407b5302de1554a9989c8429ceed0a7c53c749982df41236f3
+  checksum: 10c0/21bbe2cb105871da152cf72bee14a0112c29291b976aa36aa61bdce5e4fcaa0ce3e2195d94d4d3ed1849916a2b48121621b346396f9959e3651081379d90ae42
   languageName: node
   linkType: hard
 
-"@turbo/workspaces@npm:1.13.4":
-  version: 1.13.4
-  resolution: "@turbo/workspaces@npm:1.13.4"
+"@turbo/workspaces@npm:2.0.6":
+  version: 2.0.6
+  resolution: "@turbo/workspaces@npm:2.0.6"
   dependencies:
     chalk: "npm:2.4.2"
     commander: "npm:^10.0.0"
@@ -869,7 +869,7 @@ __metadata:
     update-check: "npm:^1.5.4"
   bin:
     workspaces: dist/cli.js
-  checksum: 10c0/1a7a0f82826ec8b738ac6a0adaee989367188bd315629e47e040597e0aae88da5b7fe57f20f9765803e70e02e4470c48e52b11a6db21ed2d09b356b346c60d92
+  checksum: 10c0/259e9df5ef8aa5f2ace58b69fbaf5478af81e3e4ad72398ea9e7de11a8a086ded1625c1ed1fec67f65a8b03ceb08c0a6a310545f71112c76d50918e180d88773
   languageName: node
   linkType: hard
 
