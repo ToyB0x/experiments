@@ -1,0 +1,28 @@
+{
+  "name": "@repo/database",
+  "version": "0.0.0",
+  "private": true,
+  "volta": {
+    "extends": "../../package.json"
+  },
+  "scripts": {
+    "dev": "prisma generate --watch & tsup --watch",
+    "build": "prisma generate && tsup",
+    "db:migrate:create": "prisma migrate dev --create-only",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:status": "prisma migrate status",
+    "lint": "eslint --max-warnings=0",
+    "lint:fix": "eslint --fix",
+    "format": "prisma format",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prisma/client": "5.16.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.9",
+    "prisma": "5.16.1",
+    "tsup": "8.1.0",
+    "typescript": "5.5.2"
+  }
+}
