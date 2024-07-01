@@ -9517,6 +9517,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript-eslint@npm:^7.14.1":
+  version: 7.14.1
+  resolution: "typescript-eslint@npm:7.14.1"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": "npm:7.14.1"
+    "@typescript-eslint/parser": "npm:7.14.1"
+    "@typescript-eslint/utils": "npm:7.14.1"
+  peerDependencies:
+    eslint: ^8.56.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 10c0/93439aa50a814a2d7e117c7d9b54982292986e3c090950961d13dcb07b804ae31e43300e094fd5d27d1208c1647ebbb95fda4bc89163b1c0b2e36e8a777a6800
+  languageName: node
+  linkType: hard
+
 "typescript@npm:5.5.2":
   version: 5.5.2
   resolution: "typescript@npm:5.5.2"
@@ -9969,6 +9985,7 @@ __metadata:
     react-dom: "npm:18.3.1"
     tailwindcss: "npm:3.4.4"
     typescript: "npm:5.5.2"
+    typescript-eslint: "npm:^7.14.1"
     vite: "npm:5.3.2"
     vite-tsconfig-paths: "npm:4.3.2"
   languageName: unknown
