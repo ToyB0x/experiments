@@ -10,7 +10,7 @@
     "@typescript-eslint/parser": "7.14.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-config-turbo": "2.0.6",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "volta": {
     "extends": "../../package.json"
