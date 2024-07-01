@@ -20,7 +20,7 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/node": "20.14.9",
-    "eslint": "8.57.0",
+    "eslint": "9.6.0",
     "prisma": "5.16.1",
     "tsup": "8.1.0",
     "typescript": "5.5.2"
