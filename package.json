@@ -18,11 +18,11 @@
     "packages/*"
   ],
   "engines": {
-    "node": "22.3.0"
+    "node": "22.4.0"
   },
   "packageManager": "yarn@4.3.1",
   "volta": {
-    "node": "22.3.0",
+    "node": "22.4.0",
     "yarn": "4.3.1"
   }
 }
