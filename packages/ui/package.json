@@ -15,12 +15,12 @@
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@turbo/gen": "2.0.9",
-    "@types/eslint": "8.56.10",
+    "@types/eslint": "8.56.11",
     "@types/node": "20.14.11",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
     "eslint": "8.57.0",
-    "typescript": "5.5.3"
+    "typescript": "5.5.4"
   },
   "dependencies": {
     "react": "18.3.1"
