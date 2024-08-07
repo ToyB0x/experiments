@@ -14,14 +14,14 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@prisma/client": "5.17.0"
+    "@prisma/client": "5.18.0"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
     "@repo/typescript-config": "*",
     "@types/node": "20.14.14",
     "eslint": "8.57.0",
-    "prisma": "5.17.0",
+    "prisma": "5.18.0",
     "tsup": "8.2.4",
     "typescript": "5.5.4"
   },
